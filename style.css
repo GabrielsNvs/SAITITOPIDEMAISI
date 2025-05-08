@@ -34,9 +34,8 @@ table, th{
   width: 350px;
   font-family: serif;
   text-align: center;
-  background-color: white;
   border-collapse: collapse;
-  border-width: 1px;; 
+  border-width: 1px; 
 }
 td{
   background-color: white;
