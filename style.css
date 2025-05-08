@@ -1,0 +1,94 @@
+body{
+    background-color: #A9C1D9;
+}
+h1{
+  color:#2C2C2C;
+    font-size: 60px;
+      text-align: center;
+        font-family: serif;
+}
+p{color: #517CA8;
+    font-size: 30px;
+      font-family: serif}
+
+
+h2{
+  color: #3E5F80;
+    font-size: 35px;
+}
+
+ul{
+    font-size: 20px;
+      font-family: serif;
+        margin-left: 10px;
+        padding-left: 10px;  
+    }
+
+li{
+  color: #012141;
+    font-size: x-large;
+      line-height: 1.8;
+              
+}
+table, th{
+  width: 350px;
+  font-family: serif;
+  text-align: center;
+  background-color: white;
+  border-collapse: collapse;
+  border-width: 1px;; 
+}
+td{
+  background-color: white;
+  border: 1px solid black;
+}
+.kevin-levrone{
+  border-radius: 50%;
+}
+.imagem-japão{
+  border-radius: 10%;
+  width: 200px;
+  margin-top: 2px
+}
+.imagem-USA{
+  border-radius: 10%;
+  width: 200px;
+  margin-top: 2px
+}
+.imagem-canada{
+  border-radius: 10%;
+  width: 200px;
+  margin-top: 2px;
+}
+
+a{
+display: block;
+color:#012141;
+font-weight:bolder;
+text-decoration: none;
+font-size:x-large;
+margin-top: 20px;
+}
+
+a:hover{
+  color: #517CA8;
+}
+button{
+  background-color: aqua;
+  color: #517ca8;
+  margin: 20px;
+  margin-left: 1px;
+  width: 300px;
+  height: 40px;
+  font-size: 17px;
+  font-family: serif;
+}
+button:hover{
+background-color: rgb(0, 255, 213);
+}
+#Mensagem{
+  text-align: left;
+  color: #0270ff;
+  margin-top: 1px;
+  font-family: serif;
+}
