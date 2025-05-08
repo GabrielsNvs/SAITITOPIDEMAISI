@@ -43,7 +43,16 @@ td{
   border: 1px solid black;
 }
 .kevin-levrone{
-  border-radius: 50%;
+  border-radius: 30%;
+  width: 200px;
+}
+.BMW_M3{
+  border-radius: 10%;
+  width: 200px;
+}
+.banda_Lynyrd_Skynyrd{
+  border-radius: 30%;
+  width: 200px;
 }
 .imagem-japão{
   border-radius: 10%;
@@ -86,7 +95,7 @@ button{
 button:hover{
 background-color: rgb(0, 255, 213);
 }
-#Mensagem{
+.Mensagem{
   text-align: left;
   color: #0270ff;
   margin-top: 1px;
