@@ -1,102 +1,94 @@
 body{
     background-color: #A9C1D9;
 }
-h1{
+.nome{
   color:#2C2C2C;
     font-size: 60px;
       text-align: center;
-        font-family: serif;
+        font-family: 'inter', sans-serif;
 }
-p{color: #517CA8;
-    font-size: 30px;
-      font-family: serif}
-
-
-h2{
+.biografia{
+  color: #517CA8;
+    font-size: 34px;
+      font-family: 'inter', sans-serif;
+}
+.sub_titulo{
   color: #3E5F80;
-    font-size: 35px;
+    font-size: 28px;
+      font-family: 'inter', sans-serif;
 }
-
 ul{
-    font-size: 20px;
-      font-family: serif;
+      font-family: 'inter', sans-serif;
         margin-left: 10px;
-        padding-left: 10px;  
-    }
-
+          padding-left: 10px;  
+}
 li{
   color: #012141;
-    font-size: x-large;
-      line-height: 1.8;
-              
+    font-size: 20px;
+      line-height: 2.0;              
 }
 table, th{
   width: 350px;
-  font-family: serif;
-  text-align: center;
-  border-collapse: collapse;
-  border-width: 1px; 
+    font-family: 'inter', sans-serif;
+      text-align: center;
+        border-collapse: collapse;
+          border-width: 1px; 
 }
 td{
   background-color: white;
-  border: 1px solid black;
+    border: 1px solid black;
 }
-.kevin-levrone{
-  border-radius: 30%;
-  width: 200px;
+.imagens_hobbies{
+  border-radius: 20%;
+    width: 200px;
+      transition: transform 0.3s ease, filter 0.4s ease;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-.BMW_M3{
+.imagens_hobbies:hover{
+  transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
+}
+.imagem_bandeiras{
   border-radius: 10%;
-  width: 200px;
+    width: 200px;
+      margin-top: 10px;
+      margin-bottom: 10px;
+        transition: transform 0.3s ease, filter 0.4s ease;
+          box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
-.banda_Lynyrd_Skynyrd{
-  border-radius: 30%;
-  width: 200px;
+.imagem_bandeiras:hover{
+  transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3);
 }
-.imagem-japão{
-  border-radius: 10%;
-  width: 200px;
-  margin-top: 2px
+.link_youtube{
+  display: block;
+    color:#012141;
+      font-weight:bolder;
+        text-decoration: none;
+          font-size:x-large;
+            margin-top: 20px;
+              font-family: 'inter', sans-serif;
 }
-.imagem-USA{
-  border-radius: 10%;
-  width: 200px;
-  margin-top: 2px
-}
-.imagem-canada{
-  border-radius: 10%;
-  width: 200px;
-  margin-top: 2px;
-}
-
-a{
-display: block;
-color:#012141;
-font-weight:bolder;
-text-decoration: none;
-font-size:x-large;
-margin-top: 20px;
-}
-
-a:hover{
-  color: #517CA8;
+.link_youtube:hover{
+  color: #517CA8;      
 }
 button{
   background-color: aqua;
-  color: #517ca8;
-  margin: 20px;
-  margin-left: 1px;
-  width: 300px;
-  height: 40px;
-  font-size: 17px;
-  font-family: serif;
+    color: #517ca8;
+      margin: 20px;
+        margin-left: 1px;
+          width: 300px;
+            height: 40px;
+              font-size: 17px;
+                font-family: 'inter', sans-serif;
 }
 button:hover{
-background-color: rgb(0, 255, 213);
+  background-color: rgb(0, 255, 213);
 }
-.Mensagem{
+#Mensagem{
   text-align: left;
-  color: #0270ff;
-  margin-top: 1px;
-  font-family: serif;
+  font-size: 30px;
+    color: #517CA8;
+      margin-top: 10px;
+        font-family: 'inter', sans-serif;
 }
